@@ -202,16 +202,16 @@ export default function Home() {
                 Connecting talented professionals with world-class opportunities. Your next career milestone is just one application away.
               </p>
               <nav className="flex flex-wrap gap-x-8 gap-y-4 mt-8">
-                <Link href="#how-it-works" className="text-sm font-semibold hover:text-primary transition-colors whitespace-nowrap">
+                <Link href="#how-it-works" className="text-md font-semibold hover:text-primary transition-colors whitespace-nowrap">
                   How It Works
                 </Link>
-                <Link href="#jobs" className="text-sm font-semibold hover:text-primary transition-colors whitespace-nowrap">
+                <Link href="#jobs" className="text-md font-semibold hover:text-primary transition-colors whitespace-nowrap">
                   Jobs
                 </Link>
-                <Link href="#why-were-better" className="text-sm font-semibold hover:text-primary transition-colors whitespace-nowrap">
+                <Link href="#why-were-better" className="text-md font-semibold hover:text-primary transition-colors whitespace-nowrap">
                   Why We're Better
                 </Link>
-                <Link href="#faqs" className="text-sm font-semibold hover:text-primary transition-colors whitespace-nowrap">
+                <Link href="#faqs" className="text-md font-semibold hover:text-primary transition-colors whitespace-nowrap">
                   FAQs
                 </Link>
               </nav>
@@ -236,7 +236,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+          <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400">
             <p>© 2026 coordinators.pro. All rights reserved.</p>
             <div className="flex gap-6">
               <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
