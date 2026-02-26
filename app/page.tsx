@@ -46,12 +46,12 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div>
               <h2 className="text-4xl md:text-5xl lg:text-7xl font-normal text-foreground leading-[1.1] mb-8">
-                Why your career
+                Are you ready for
                 <br />
-                starts right here
+                the next level?
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-                We're not just another job board. We bridge the gap between talented professionals and companies that truly value them, providing a streamlined path to your next big milestone.
+                We exist to help people tap into their potential. This is true for our clients, for our team and - perhaps most of all - for you, as a job seeker.
               </p>
             </div>
 
