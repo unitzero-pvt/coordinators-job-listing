@@ -1,8 +1,8 @@
-# Coordinator Job Posting Board
+# Coordinator Job Listing
 
 A modern, high-performance job listing platform built with **Next.js 16**, **Supabase**, and **Tailwind CSS**. This project features a public-facing job board for candidates and a secure, protected admin dashboard for managing listings.
 
-## 🚀 Features
+## Features
 
 - **Public Job Board**: Clean, high-contrast UI for browsing jobs with search and pagination.
 - **Admin Dashboard**: Secure management area at `/dashboard` for creating and deleting job listings.
@@ -11,7 +11,7 @@ A modern, high-performance job listing platform built with **Next.js 16**, **Sup
 - **Modern UI/UX**: Built with Radix UI components, Lucide icons, and responsive layouts.
 - **Resume Integration**: Ready-to-use application flow with resume extraction support.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
 - **Database**: [Supabase](https://supabase.com/)
@@ -22,7 +22,7 @@ A modern, high-performance job listing platform built with **Next.js 16**, **Sup
 
 ---
 
-## 🏃 Local Setup
+## Local Setup
 
 Follow these steps to get the project running on your machine:
 
@@ -59,7 +59,7 @@ Open [http://localhost:3000](http://localhost:3000) to see the result.
 
 ---
 
-## 🔐 Admin Access
+## Admin Access
 
 - **Login Route**: `/login`
 - **Dashboard Route**: `/dashboard` (Protected)
@@ -68,7 +68,7 @@ Unauthorized attempts to access the dashboard will be redirected to the login pa
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - `app/`: Next.js App Router (Pages & API routes)
 - `components/`: Reusable UI components (JobCard, JobForm, JobTable, etc.)
@@ -76,7 +76,7 @@ Unauthorized attempts to access the dashboard will be redirected to the login pa
 - `lib/`: Configuration files (Supabase client)
 - `middleware.ts`: Route protection and authentication logic
 
-## 📝 Usage
+## Usage
 
 1. **Main Page**: Candidates can view, search, and filter jobs.
 2. **Login**: Admin signs in using the credentials defined in `.env`.
@@ -86,5 +86,5 @@ Unauthorized attempts to access the dashboard will be redirected to the login pa
 
 ---
 
-## 📄 License
+## License
 This project is private and intended for use by Coordinators.pro.
